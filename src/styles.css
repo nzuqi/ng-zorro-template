@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+.page-loader {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+body.page--loaded .page-loader {
+    display: none;
+    transition: all .3s ease;
+}
+body .page-loader {
+    display: flex;
+}
